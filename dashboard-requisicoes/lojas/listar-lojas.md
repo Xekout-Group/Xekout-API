@@ -94,6 +94,7 @@ Listagem de lojas concluída com sucesso.
   ]
 }
 ```
+
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
@@ -108,44 +109,3 @@ Não foi possível encontrar lojas que correspondam a essa consulta.
   "message": "tenants not found or not avaliable"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/admins" %}
-{% api-method-summary %}
-
-{% endapi-method-summary %}
-
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Não foi possível encontrar Admins que correspondam a esta consulta.
-{% endapi-method-response-example-description %}
-
-```text
-{
-  "status": "error",
-  "code": 404001,
-  "message": "admins not found or not avaliable"
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-

@@ -1,17 +1,17 @@
 ---
-description: 'Endpoints para testar se a API está funcionando, e URL base.'
+description: "Endpoints para testar se a API está funcionando, e URL base."
 ---
 
 # 1.2. Endpoints de teste e URL Base
 
 ## Base API
 
-* **Base URL**: /v1
-* **Versão**: 1.0.5
-* **Schemes**: http
+- **Base URL**: /v1
+- **Versão**: 1.0.5
+- **Schemes**: http
 
 {% hint style="info" %}
-Versionamento da API pode ser encontrado na página de [Versões da API.](versao.md)
+Versionamento da API pode ser encontrado na página de [Versões da API](versao.md).
 {% endhint %}
 
 ## Endpoints de teste
@@ -39,6 +39,7 @@ Requisição realizada com sucesso.
   "message": "Welcome to Xekout App Rest API"
 }
 ```
+
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=500 %}
@@ -49,6 +50,7 @@ Erro no servidor.
 ```
 Não foi possivel se conectar ao servidor.
 ```
+
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
@@ -96,6 +98,7 @@ Requisição realizada com sucesso.
     ]
   }
 ```
+
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=500 %}
@@ -106,8 +109,8 @@ Erro no servidor.
 ```text
 Não foi possivel se conectar ao servidor.
 ```
+
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-

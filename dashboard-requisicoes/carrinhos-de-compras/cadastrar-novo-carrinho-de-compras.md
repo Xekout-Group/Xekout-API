@@ -2,7 +2,7 @@
 description: Cadastrar novo carrinho de compras.
 ---
 
-# 4.1. Cadastrar novo carrinho de compras
+# 2.4.1. Cadastrar novo carrinho de compras
 
 {% api-method method="post" host="https://dev-api.xekout.app" path="/v1/admin/carts" %}
 {% api-method-summary %}
@@ -32,7 +32,7 @@ Bearer Token JWT para autenticação.
 Carrinho de compras cadastrado com sucesso.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "success",
   "code": 201014,
@@ -50,7 +50,6 @@ Carrinho de compras cadastrado com sucesso.
   }
 }
 ```
-
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
@@ -58,11 +57,11 @@ Carrinho de compras cadastrado com sucesso.
 Could not find a cake matching this query.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {    "message": "Ain't no cake like that."}
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+

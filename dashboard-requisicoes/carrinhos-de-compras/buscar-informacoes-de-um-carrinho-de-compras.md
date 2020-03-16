@@ -2,7 +2,7 @@
 description: Exibir as informações relacionadas a um carrinho de compras na plataforma.
 ---
 
-# 4.2. Buscar informações de um carrinho de compras
+# 2.4.2. Buscar informações de um carrinho de compras
 
 {% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/carts/:uuid" %}
 {% api-method-summary %}
@@ -38,7 +38,7 @@ Bearer Token JWT para autenticação.
 Busca concluída com sucesso.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "success",
   "code": 200002,
@@ -66,7 +66,6 @@ Busca concluída com sucesso.
   ]
 }
 ```
-
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
@@ -74,15 +73,15 @@ Busca concluída com sucesso.
 Não possível encontrar nenhum carrinho de compras, correspondente a essa consulta .
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 404002,
   "message": "cart not found"
 }
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+

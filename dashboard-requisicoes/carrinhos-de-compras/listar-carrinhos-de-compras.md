@@ -2,7 +2,7 @@
 description: Listar todas os carrinhos de compras cadastrados na plataforma.
 ---
 
-# 4.3. Listar carrinhos de compras
+# 2.4.3. Listar carrinhos de compras
 
 {% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/tenants" %}
 {% api-method-summary %}
@@ -32,7 +32,7 @@ Bearer Token JWT para autenticação.
 Listagem de lojas concluída com sucesso.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "success",
   "code": 200002,
@@ -61,7 +61,6 @@ Listagem de lojas concluída com sucesso.
   ]
 }
 ```
-
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
@@ -69,15 +68,15 @@ Listagem de lojas concluída com sucesso.
 Não foi possível encontrar carrinhos de compras que correspondam a essa consulta.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 404002,
   "message": "carts not found or not avaliable"
 }
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+

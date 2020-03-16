@@ -1,10 +1,10 @@
 ---
 description: >-
-  Esse tópico está relacionado a todas as requisições relacionadas a Carrinhos
+  Esse tópico está relacionado a todas as requisições relacionadas a Carrinhos 
   de Compras cadastrados na plataforma Xekout App.
 ---
 
-# 4. Carrinhos de Compras
+## 4. Carrinhos de Compras
 
 **Lista de requisições**
 
