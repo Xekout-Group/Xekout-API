@@ -51,16 +51,16 @@
   * [3.3.1. Listar todas os pedidos de uma loja](dashboard-consultas/loja/listar-todas-os-pedidos-de-uma-loja.md)
   * [3.3.2. Listar todos os clientes de uma loja](dashboard-consultas/loja/listar-todos-os-clientes-de-uma-loja.md)
 
-## 4. - Partners
+## 4. - Partners <a id="parceiros"></a>
 
-* [4.1. Parceiros](4.-partners/parceiros/README.md)
-  * [4.1.1. Login e Cadastro de parceiro](4.-partners/parceiros/4.1.1.-login-e-cadastro-de-parceiro.md)
-  * [4.1.2. Cadastro de parceiro](4.-partners/parceiros/cadastro-de-parceiro.md)
-  * [4.1.2. Buscar informações de um parceiro](4.-partners/parceiros/buscar-informacoes-de-um-parceiro.md)
-* [4.2. Dados bancários](4.-partners/dados-bancarios/README.md)
-  * [4.2.1. Cadastrar dados bancários](4.-partners/dados-bancarios/cadastrar-dados-bancarios.md)
-  * [4.2.2. Buscar informações dos dados bancários](4.-partners/dados-bancarios/buscar-informacoes-dos-dados-bancarios.md)
-  * [4.2.3. Atualizar dados bancários](4.-partners/dados-bancarios/4.2.3.-atualizar-dados-bancarios.md)
+* [4.1. Parceiros](parceiros/parceiros/README.md)
+  * [4.1.1. Login e Cadastro de parceiro](parceiros/parceiros/4.1.1.-login-e-cadastro-de-parceiro.md)
+  * [4.1.2. Cadastro de parceiro](parceiros/parceiros/cadastro-de-parceiro.md)
+  * [4.1.2. Buscar informações de um parceiro](parceiros/parceiros/buscar-informacoes-de-um-parceiro.md)
+* [4.2. Dados bancários](parceiros/dados-bancarios/README.md)
+  * [4.2.1. Cadastrar dados bancários](parceiros/dados-bancarios/cadastrar-dados-bancarios.md)
+  * [4.2.2. Buscar informações dos dados bancários](parceiros/dados-bancarios/buscar-informacoes-dos-dados-bancarios.md)
+  * [4.2.3. Atualizar dados bancários](parceiros/dados-bancarios/4.2.3.-atualizar-dados-bancarios.md)
 
 ## 5 - Códigos de resposta <a id="codigos-de-resposta"></a>
 
