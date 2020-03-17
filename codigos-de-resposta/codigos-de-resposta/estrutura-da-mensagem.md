@@ -4,7 +4,7 @@ description: >-
   das requisições.
 ---
 
-# 4.1.1. Estrutura da mensagem
+# 5.1.1. Estrutura da mensagem
 
 As mensagens de resposta normalmente possuem dois atributos obrigatórios, abaixo um exemplo em formato JSON de uma mensagem de resposta.
 

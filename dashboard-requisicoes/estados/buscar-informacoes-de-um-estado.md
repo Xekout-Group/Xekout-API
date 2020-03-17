@@ -38,7 +38,7 @@ Bearer Token JWT para autenticação.
 Busca concluída com sucesso.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "success",
   "code": 200002,
@@ -53,7 +53,6 @@ Busca concluída com sucesso.
   ]
 }
 ```
-
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
@@ -61,15 +60,15 @@ Busca concluída com sucesso.
 Não possível encontrar nenhum estado, correspondente a essa consulta.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 404012,
   "message": "state not found or avaliable"
 }
 ```
-
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+

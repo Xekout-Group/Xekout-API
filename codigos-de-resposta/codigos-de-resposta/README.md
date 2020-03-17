@@ -4,7 +4,7 @@ description: >-
   pela plataforma Xekout App.
 ---
 
-# 4.1. Códigos de Resposta
+# 5.1. Códigos de Resposta
 
 * [Códigos de erro](codigos-de-erro.md)
 * [Códigos de sucesso](codigos-de-sucesso.md)

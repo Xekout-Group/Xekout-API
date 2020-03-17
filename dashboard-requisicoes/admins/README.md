@@ -11,3 +11,4 @@ description: >-
 1. [Cadastrar](cadastrar-novo-admin.md)
 2. [Listar](listar-admins.md)
 3. [Buscar](buscar-informacoes-de-um-admin.md)
+

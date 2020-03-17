@@ -1,16 +1,16 @@
 ---
-description: Cadastrar novo admin na plataforma.
+description: Cadastrar novo parceiro na plataforma.
 ---
 
-# 2.1.2. Cadastrar novo Admin
+# 4.1.2. Cadastro de parceiro
 
-{% api-method method="post" host="https://dev-api.xekout.app" path="/v1/admin/admins" %}
+{% api-method method="post" host="https://dev-api.xekout.app" path="/v1/partner/register" %}
 {% api-method-summary %}
-Cadastrar Admin
+Cadastrar Parceiro
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Este endpoint permite o cadastro de um novo admin.
+Este endpoint permite o cadastro de um novo parceiro.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -26,24 +26,24 @@ Bearer Token JWT para autenticação.
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="name" type="string" required=true %}
-Nome do admin
+{% api-method-parameter name="fullname" type="string" required=true %}
+Nome completo do parceiro
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="email" type="string" required=true %}
-Email do admin
+Email do parceiro
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="password" type="string" required=true %}
 Senha usada para fazer login
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="whatsapp" type="string" required=true %}
-Número de telefone, para notificações or WhatsApp
+{% api-method-parameter name="cellphone" type="string" required=true %}
+Número de telefone do parceiro
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="cpf" type="string" required=true %}
-CPF do admin
+Número do CPF do parceiro
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -51,14 +51,14 @@ CPF do admin
 {% api-method-response %}
 {% api-method-response-example httpCode=201 %}
 {% api-method-response-example-description %}
-Admin cadastrado com sucesso.
+Parceiro cadastrado com sucesso.
 {% endapi-method-response-example-description %}
 
 ```text
 {
   "status": "success",
-  "code": 201001,
-  "admin": {
+  "code": 201012,
+  "partnerData": {
     "id": integer,
     "uuid": "string",
     "name": "string",
@@ -66,30 +66,26 @@ Admin cadastrado com sucesso.
     "cpf": "string",
     "cellphone": "string",
     "created_at": timestamp,
-    "updated_at": timestamp
-   }
+    "updated_at": timestamp,
   }
+}
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=401 %}
+{% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-Não possui as devidas credenciais para concluir a operação.
+Erro ao cadastrar um novo parceiro.
 {% endapi-method-response-example-description %}
 
-```text
+```
 {
   "status": "error",
-  "code": 404002,
-  "message": "you don't have the necessary credentials"
+  "code": 400006,
+  "message": "cpf or email for partner alread exist in database"
 }
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-{% hint style="info" %}
-O código utilizado na resposta da requisição, é um código próprio do Xekout App, para definições e especificações de todos os códigos, acessar [Códigos Respostas](../../codigos-de-resposta/codigos-de-resposta/).
-{% endhint %}
 

@@ -2,7 +2,7 @@
 description: Listar todos os admins cadastrados na plataforma.
 ---
 
-# 2.1.3. Listar admins
+# 2.1.4. Listar admins
 
 {% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/admins" %}
 {% api-method-summary %}
