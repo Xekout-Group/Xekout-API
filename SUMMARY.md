@@ -36,8 +36,13 @@
   - [2.6.2. Buscar informações de um pedido](dashboard-requisicoes/pedidos/buscar-informacoes-de-um-pedido.md)
   - [2.6.3. Listar pedidos](dashboard-requisicoes/pedidos/listar-pedidos.md)
 - [2.7. Estados](dashboard-requisicoes/estados/README.md)
+
   - [2.7.1. Buscar informações de um estado](dashboard-requisicoes/estados/buscar-informacoes-de-um-estado.md)
   - [2.7.2. Listar estados](dashboard-requisicoes/estados/listar-estados.md)
+
+- [2.8. Bloqueios de Clientes](dashboard-requisicoes/bloqueios-de-clientes/README.md)
+  - [2.8.1. Bloquear Cliente de uma Loja](dashboard-requisicoes/bloqueios-de-clientes/bloquear-cliente-de-uma-loja.md)
+  - [2.8.2. Desbloquear Cliente de uma Loja](dashboard-requisicoes/bloqueios-de-clientes/desbloquear-cliente-de-uma-loja.md)
 
 ## 3. - Dashboard Consultas <a id="dashboard-consultas"></a>
 
