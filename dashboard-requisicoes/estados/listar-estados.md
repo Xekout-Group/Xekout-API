@@ -59,7 +59,7 @@ Não foi possível encontrar estados que correspondam a essa consulta.
 {
   "status": "error",
   "code": 404012,
-  "message": "estates not found or not avaliable"
+  "message": "states not found or not avaliable"
 }
 ```
 {% endapi-method-response-example %}

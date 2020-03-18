@@ -39,6 +39,9 @@
 * [2.7. Estados](dashboard-requisicoes/estados/README.md)
   * [2.7.1. Buscar informações de um estado](dashboard-requisicoes/estados/buscar-informacoes-de-um-estado.md)
   * [2.7.2. Listar estados](dashboard-requisicoes/estados/listar-estados.md)
+* [2.8. Bloqueios de Clientes](dashboard-requisicoes/bloqueios-de-clientes/README.md)
+  * [2.8.1. Bloquear Cliente de uma Loja](dashboard-requisicoes/bloqueios-de-clientes/bloquear-cliente-de-uma-loja.md)
+  * [2.8.2. Desbloquear Cliente de uma Loja](dashboard-requisicoes/bloqueios-de-clientes/desbloquear-cliente-de-uma-loja.md)
 
 ## 3. - Dashboard Consultas <a id="dashboard-consultas"></a>
 
@@ -64,8 +67,8 @@
 
 ## 5 - Códigos de resposta <a id="codigos-de-resposta"></a>
 
-* [5.1. Códigos de Resposta](codigos-de-resposta/codigos-de-resposta/README.md)
-  * [5.1.1. Estrutura da mensagem](codigos-de-resposta/codigos-de-resposta/estrutura-da-mensagem.md)
-  * [5.1.2. Códigos de sucesso](codigos-de-resposta/codigos-de-resposta/codigos-de-sucesso.md)
-  * [4.1.3. Códigos de erro](codigos-de-resposta/codigos-de-resposta/codigos-de-erro.md)
+* [5.1. Códigos de Resposta de requisição](codigos-de-resposta/codigos-de-resposta-de-requisicao/README.md)
+  * [5.1.1. Estrutura da mensagem](codigos-de-resposta/codigos-de-resposta-de-requisicao/estrutura-da-mensagem.md)
+  * [5.1.2. Códigos de sucesso](codigos-de-resposta/codigos-de-resposta-de-requisicao/codigos-de-sucesso.md)
+  * [4.1.3. Códigos de erro](codigos-de-resposta/codigos-de-resposta-de-requisicao/codigos-de-erro.md)
 
