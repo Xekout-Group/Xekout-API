@@ -4,8 +4,9 @@ description: >-
   pela plataforma Xekout App.
 ---
 
-# 5.1. Códigos de Resposta
+# 4.2. Códigos de Resposta
 
-* [Códigos de erro](codigos-de-erro.md)
-* [Códigos de sucesso](codigos-de-sucesso.md)
+* [Estrutura da mensagem](../estrutura-da-mensagem.md)
+* [Códigos de sucesso](codigos-de-resposta/)
+* [Códigos de erro](codigos-de-erro/)
 
