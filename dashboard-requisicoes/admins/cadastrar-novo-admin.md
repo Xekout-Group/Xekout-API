@@ -2,7 +2,7 @@
 description: Cadastrar novo admin na plataforma.
 ---
 
-# 2.1.2. Cadastrar novo Admin
+# 2.1.1. Cadastrar novo Admin
 
 {% api-method method="post" host="https://dev-api.xekout.app" path="/v1/admin/admins" %}
 {% api-method-summary %}
@@ -90,6 +90,6 @@ Não possui as devidas credenciais para concluir a operação.
 {% endapi-method %}
 
 {% hint style="info" %}
-O código utilizado na resposta da requisição, é um código próprio do Xekout App, para definições e especificações de todos os códigos, acessar [Códigos Respostas](../../codigos-de-resposta/codigos-de-resposta-de-requisicao/).
+O código utilizado na resposta da requisição, é um código próprio do Xekout App, para definições e especificações de todos os códigos, acessar [Códigos Respostas]().
 {% endhint %}
 

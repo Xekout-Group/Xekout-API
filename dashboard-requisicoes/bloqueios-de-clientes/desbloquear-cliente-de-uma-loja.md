@@ -52,7 +52,7 @@ Desbloqueio concluído com sucesso.
 Não foi possível bloquear o cliente, o mesmo já está bloqueado.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 400019,

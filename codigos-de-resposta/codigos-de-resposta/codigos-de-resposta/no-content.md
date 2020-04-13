@@ -6,8 +6,9 @@ description: >-
 
 # 204 \(No content\)
 
-| Identificador | Descrição                                     |
-| :------------ | :-------------------------------------------- |
-| 204001        | informações bancárias atualizadas com sucesso |
-| 204002        | usuário bloqueado com sucesso                 |
-| 204003        | usuário desbloqueado com sucesso              |
+| Identificador | Descrição |
+| :--- | :--- |
+| 204001 | informações bancárias atualizadas com sucesso |
+| 204002 | usuário bloqueado com sucesso |
+| 204003 | usuário desbloqueado com sucesso |
+

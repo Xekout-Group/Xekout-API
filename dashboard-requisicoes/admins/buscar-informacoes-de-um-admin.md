@@ -2,7 +2,7 @@
 description: Exibir as informações relacionadas a um admin cadastrado na plataforma.
 ---
 
-# 2.1.3. Buscar informações de um admin
+# 2.1.2. Buscar informações de um admin
 
 {% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/admins/:uuid" %}
 {% api-method-summary %}
