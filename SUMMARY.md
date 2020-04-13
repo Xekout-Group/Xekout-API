@@ -50,6 +50,9 @@
     * [2.9.1.4. Desinstalação do XekoutApp](dashboard-requisicoes/shopify/app-shopify/2.9.1.4.-desinstalacao-do-xekoutapp.md)
   * [2.9.2. Desconto](dashboard-requisicoes/shopify/desconto/README.md)
     * [2.9.2.1. Buscar desconto](dashboard-requisicoes/shopify/desconto/buscar-desconto.md)
+* [2.10.1. Produtos](dashboard-requisicoes/2.10.1.-produtos/README.md)
+  * [2.10.1.1. Listar produtos](dashboard-requisicoes/2.10.1.-produtos/listar-produtos.md)
+  * [2.10.1.2. Buscar informações de um produto](dashboard-requisicoes/2.10.1.-produtos/buscar-informacoes-de-um-produto.md)
 
 ## 3. - Dashboard Consultas <a id="dashboard-consultas"></a>
 
