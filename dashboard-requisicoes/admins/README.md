@@ -9,6 +9,7 @@ description: >-
 **Lista de requisições**
 
 1. [Cadastrar](cadastrar-novo-admin.md)
-2. [Listar](listar-admins.md)
+2. [Listar]()
 3. [Buscar](buscar-informacoes-de-um-admin.md)
+4. [Esqueceu a senha](2.1.4.-esqueci-a-senha.md)
 

@@ -8,6 +8,6 @@ description: >-
 
 **Lista de requisições**
 
-1. [Listar](../admins/listar-admins.md)
+1. [Listar]()
 2. [Buscar](../admins/buscar-informacoes-de-um-admin.md)
 

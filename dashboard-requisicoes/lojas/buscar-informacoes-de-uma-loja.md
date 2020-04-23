@@ -2,22 +2,22 @@
 description: Exibir as informações relacionadas a uma loja cadastrado na plataforma.
 ---
 
-# 2.2.1. Buscar informações de uma Loja
+# 2.2.2. Buscar informações de uma Loja
 
-{% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/tenants/:uuid" %}
+{% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/tenants/:domain" %}
 {% api-method-summary %}
 Buscar Loja
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Este endpoint permite a busca de uma loja, por meio do código UUID.
+Este endpoint permite a busca de uma loja, por meio do domain da Loja.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="uuid" type="string" required=true %}
-UUID único referente ao cadastro da loja.
+{% api-method-parameter name="domain" type="string" required=true %}
+Domain único referente ao cadastro da loja.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -44,8 +44,6 @@ Busca concluída com sucesso.
   "code": 200002,
   "tenant": [
     {
-     "id": integer,
-      "uuid": "string",
       "plan_id": integer,
       "company": "string",
       "document": "string",
@@ -93,8 +91,6 @@ Busca concluída com sucesso.
       "country_id": integer,
       "hostname_id": integer,
       "partner_id": integer,
-      "created_at": timestamp,
-      "updated_at": timestamp
     }
   ]
 }
@@ -110,7 +106,7 @@ Não possível encontrar nenhuma loja, correspondente a essa consulta .
 {
   "status": "error",
   "code": 404013,
-  "message": "tenant not found or not avaliable"
+  "message": "Tenant not found"
 }
 ```
 {% endapi-method-response-example %}
