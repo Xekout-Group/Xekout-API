@@ -1,26 +1,33 @@
 # Table of contents
 
 * [Página Inicial](README.md)
-* [Sobre a Xekout.me](sobre-a-xekout.md)
+* [Sobre a Xekout](sobre-a-xekout.md)
 
-## 1 - Definições da API <a id="definicoes-da-api"></a>
+## Rest API
 
-* [1.1. Especificações](definicoes-da-api/sobre.md)
-* [1.2. Endpoints de teste e URL Base](definicoes-da-api/endpoints.md)
-* [1.3. Versões da API](definicoes-da-api/versao.md)
+* [Começando](rest-api/get-started.md)
+* [Endpoints](rest-api/endpoints/README.md)
+  * [v1](rest-api/endpoints/v1/README.md)
+    * [API Dashboard](rest-api/endpoints/v1/api-dashboard.md)
+    * [API Checkout](rest-api/endpoints/v1/api-checkout/README.md)
+      * [Carrinhos](rest-api/endpoints/v1/api-checkout/carts/README.md)
+        * [Carrinho Abandonado](rest-api/endpoints/v1/api-checkout/carts/carrinho-abandonado.md)
+        * [Salvar Carrinho](rest-api/endpoints/v1/api-checkout/carts/salvar-carrinho.md)
+      * [Clientes](rest-api/endpoints/v1/api-checkout/customers/README.md)
+        * [Cadastrar Cliente](rest-api/endpoints/v1/api-checkout/customers/register-customer.md)
+* [Versões](rest-api/versions.md)
 
-## 2 - Dashboard <a id="dashboard-requisicoes"></a>
+## 2 - Dashboard \(Desatualizado\) <a id="dashboard-requisicoes"></a>
 
 * [2.1. Admins](dashboard-requisicoes/admins/README.md)
   * [2.1.1. Cadastrar novo Admin](dashboard-requisicoes/admins/cadastrar-novo-admin.md)
   * [2.1.2. Buscar informações de um admin](dashboard-requisicoes/admins/buscar-informacoes-de-um-admin.md)
-  * [2.1.3. Atualizar informações de um admin](dashboard-requisicoes/admins/2.1.3.-atualizar-informacoes-de-um-admin.md)
+  * [2.1.3. Listar admins](dashboard-requisicoes/admins/listar-admins.md)
   * [2.1.4. Esqueci a senha](dashboard-requisicoes/admins/2.1.4.-esqueci-a-senha.md)
 * [2.2. Lojas](dashboard-requisicoes/lojas/README.md)
   * [2.2.1. Cadastrar nova Loja](dashboard-requisicoes/lojas/cadastrar-nova-loja.md)
-  * [2.2.2. Buscar informações de uma Loja](dashboard-requisicoes/lojas/buscar-informacoes-de-uma-loja.md)
-  * [2.2.3. Listar lojas](dashboard-requisicoes/lojas/listar-lojas.md)
-  * [2.2.4. Atualizar informações de uma loja](dashboard-requisicoes/lojas/2.2.4.-atualizar-informacoes-de-uma-loja.md)
+  * [2.2.1. Buscar informações de uma Loja](dashboard-requisicoes/lojas/buscar-informacoes-de-uma-loja.md)
+  * [2.2.1. Listar lojas](dashboard-requisicoes/lojas/listar-lojas.md)
 * [2.3. Clientes](dashboard-requisicoes/clientes/README.md)
   * [2.3.1. Cadastrar novo cliente](dashboard-requisicoes/clientes/cadastrar-novo-cliente.md)
   * [2.3.2. Buscar informações de um cliente](dashboard-requisicoes/clientes/buscar-informacoes-de-um-cliente.md)
@@ -51,33 +58,19 @@
     * [2.9.1.4. Desinstalação do XekoutApp](dashboard-requisicoes/shopify/app-shopify/2.9.1.4.-desinstalacao-do-xekoutapp.md)
   * [2.9.2. Desconto](dashboard-requisicoes/shopify/desconto/README.md)
     * [2.9.2.1. Buscar desconto](dashboard-requisicoes/shopify/desconto/buscar-desconto.md)
-* [2.10.1. Produtos](dashboard-requisicoes/2.10.1.-produtos/README.md)
-  * [2.10.1.1. Listar produtos](dashboard-requisicoes/2.10.1.-produtos/listar-produtos.md)
-  * [2.10.1.2. Buscar informações de um produto](dashboard-requisicoes/2.10.1.-produtos/buscar-informacoes-de-um-produto.md)
 
-## 3. - Dashboard Consultas <a id="dashboard-consultas"></a>
+## Códigos de resposta <a id="response-codes"></a>
 
-* [3.1. Admin](dashboard-consultas/admin/README.md)
-  * [3.1.1. Listar todas as lojas de um admin](dashboard-consultas/admin/listar-todas-as-lojas-de-um-admin.md)
-* [3.2. Carrinho de compras](dashboard-consultas/carrinho-de-compras/README.md)
-  * [3.2.1. Listar todos os carrinhos de compras uma loja](dashboard-consultas/carrinho-de-compras/listar-todas-os-pedidos-de-uma-loja.md)
-  * [3.2.2. Listar todos os carrinhos de compras abandonados uma loja](dashboard-consultas/carrinho-de-compras/listar-todos-os-clientes-de-uma-loja.md)
-* [3.3. Loja](dashboard-consultas/loja/README.md)
-  * [3.3.1. Listar todas os pedidos de uma loja](dashboard-consultas/loja/listar-todas-os-pedidos-de-uma-loja.md)
-  * [3.3.2. Listar todos os clientes de uma loja](dashboard-consultas/loja/listar-todos-os-clientes-de-uma-loja.md)
-
-## 4 - Códigos de resposta <a id="codigos-de-resposta"></a>
-
-* [4.1. Estrutura da mensagem](codigos-de-resposta/estrutura-da-mensagem.md)
-* [4.2. Códigos de Resposta](codigos-de-resposta/codigos-de-resposta/README.md)
-  * [4.2. Códigos de Resposta](codigos-de-resposta/codigos-de-resposta/codigos-de-resposta/README.md)
-    * [200 \(Ok\)](codigos-de-resposta/codigos-de-resposta/codigos-de-resposta/ok.md)
-    * [201 \(Created\)](codigos-de-resposta/codigos-de-resposta/codigos-de-resposta/created.md)
-    * [204 \(No content\)](codigos-de-resposta/codigos-de-resposta/codigos-de-resposta/no-content.md)
-  * [4.1.2. Códigos de erro](codigos-de-resposta/codigos-de-resposta/codigos-de-erro/README.md)
-    * [400 \(Bad request\)](codigos-de-resposta/codigos-de-resposta/codigos-de-erro/bad-request.md)
-    * [401 \(Unauthorized\)](codigos-de-resposta/codigos-de-resposta/codigos-de-erro/unauthorized.md)
-    * [404 \(Not found\)](codigos-de-resposta/codigos-de-resposta/codigos-de-erro/not-found.md)
-    * [405 \(Method Not Allowed\)](codigos-de-resposta/codigos-de-resposta/codigos-de-erro/method-not-allowed.md)
-    * [406 \(Not Acceptable\)](codigos-de-resposta/codigos-de-resposta/codigos-de-erro/not-acceptable.md)
+* [Estrutura da mensagem](response-codes/message-structure.md)
+* [Lista de Códigos de Resposta](response-codes/response-code-list/README.md)
+  * [Sucesso](response-codes/response-code-list/success/README.md)
+    * [200 \(Ok\)](response-codes/response-code-list/success/ok.md)
+    * [201 \(Created\)](response-codes/response-code-list/success/created.md)
+    * [204 \(No content\)](response-codes/response-code-list/success/no-content.md)
+  * [Erros](response-codes/response-code-list/error/README.md)
+    * [400 \(Bad request\)](response-codes/response-code-list/error/bad-request.md)
+    * [401 \(Unauthorized\)](response-codes/response-code-list/error/unauthorized.md)
+    * [404 \(Not found\)](response-codes/response-code-list/error/not-found.md)
+    * [405 \(Method Not Allowed\)](response-codes/response-code-list/error/method-not-allowed.md)
+    * [406 \(Not Acceptable\)](response-codes/response-code-list/error/not-acceptable.md)
 

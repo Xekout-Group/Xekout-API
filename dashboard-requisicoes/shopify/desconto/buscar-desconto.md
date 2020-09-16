@@ -32,7 +32,7 @@ Dominio da loja no Shopify.
 Caso a operação tenha sucesso, retorna as informações de desconto referente ao cupom.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "code": 200110,
   "status": "success",
@@ -81,7 +81,7 @@ Caso a operação tenha sucesso, retorna as informações de desconto referente 
 Não possui autorização para completar a operação.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "code": 401100,
   "status": "error",
@@ -95,7 +95,7 @@ Não possui autorização para completar a operação.
 Loja se encontra inativa.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "code": 403001,
   "status": "error",
@@ -109,7 +109,7 @@ Loja se encontra inativa.
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "code": 404103,
   "status": "error",

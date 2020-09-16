@@ -28,7 +28,7 @@ Domínio da loja no Shopify.
 Caso a operação tenha sucesso, redireciona para a instalação do app no dashboard da Shopify.
 {% endapi-method-response-example-description %}
 
-```
+```text
 Nada
 ```
 {% endapi-method-response-example %}
@@ -38,7 +38,7 @@ Nada
 Could not find a cake matching this query.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 400102,
@@ -49,6 +49,4 @@ Could not find a cake matching this query.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 

@@ -1,8 +1,10 @@
 ---
-description: Descrição a respeito da Xekout.me
+description: Descrição a respeito da Xekout
 ---
 
-# Sobre a Xekout.me
+# Sobre a Xekout
+
+
 
 ![](.gitbook/assets/logo-xekout.png)
 

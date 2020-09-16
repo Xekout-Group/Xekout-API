@@ -32,7 +32,7 @@ Token temporário, parâmetro que precisa ser trocado por um token de acesso per
 Caso a operação tenha sucesso, redireciona para a url de login da plataforma XekoutApp.
 {% endapi-method-response-example-description %}
 
-```
+```text
 Nada
 ```
 {% endapi-method-response-example %}
@@ -42,7 +42,7 @@ Nada
 Falha ao tentar capturar dados necessários para processar a operação.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 400100,
@@ -56,7 +56,7 @@ Falha ao tentar capturar dados necessários para processar a operação.
 Não possui autorização para completar a operação.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 401100,

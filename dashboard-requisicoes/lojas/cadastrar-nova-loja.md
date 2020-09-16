@@ -135,6 +135,6 @@ Não possível cadastrar a loja, campos inválidos.
 {% endapi-method %}
 
 {% hint style="warning" %}
-O código utilizado na resposta da requisição, é um código próprio do Xekout App, para definições e especificações de todos os códigos, acessar [Códigos Respostas]().
+O código utilizado na resposta da requisição, é um código próprio do Xekout App, para definições e especificações de todos os códigos, acessar [Códigos Respostas](cadastrar-nova-loja.md).
 {% endhint %}
 
