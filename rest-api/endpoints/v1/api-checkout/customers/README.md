@@ -6,8 +6,6 @@ description: >-
 
 # Clientes
 
-### Topicos
-
 {% hint style="warning" %}
 Clientes na plataforma Xekout App, são definidos como _users_.
 {% endhint %}

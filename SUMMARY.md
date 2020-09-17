@@ -11,7 +11,7 @@
     * [API Dashboard](rest-api/endpoints/v1/api-dashboard.md)
     * [API Checkout](rest-api/endpoints/v1/api-checkout/README.md)
       * [Gateways](rest-api/endpoints/v1/api-checkout/gateways.md)
-      * [Loja](rest-api/endpoints/v1/api-checkout/loja/README.md)
+      * [Lojas](rest-api/endpoints/v1/api-checkout/loja/README.md)
         * [Buscar informações da loja](rest-api/endpoints/v1/api-checkout/loja/buscar-informacoes-da-loja.md)
       * [Desconto](rest-api/endpoints/v1/api-checkout/discount/README.md)
         * [Buscar desconto](rest-api/endpoints/v1/api-checkout/discount/get-discount-info.md)
