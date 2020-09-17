@@ -8,7 +8,7 @@ Todas as requisições  HTTP relacionadas ao Checkout precisam ser enviadas com 
 
 > Essas informações são de extrema cautela, para saber o funcionamento e como elas são enviadas procure o desenvolvedor responsável.
 
-
+**TODO**: explicar passo a passo de como funciona a criação das duas informações
 
 
 
