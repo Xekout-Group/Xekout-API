@@ -42,7 +42,7 @@ Domínio da loja no Shopify.
 Caso a operação tenha sucesso, redireciona para a url de autenticação do app.
 {% endapi-method-response-example-description %}
 
-```
+```text
 Nada
 ```
 {% endapi-method-response-example %}
@@ -52,7 +52,7 @@ Nada
 Erros indicando que o servidor não pode ou não processará a solicitação devido a algo que é percebido como um erro do cliente.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 400101,
@@ -72,7 +72,7 @@ Erros indicando que o servidor não pode ou não processará a solicitação dev
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 403100,
@@ -85,10 +85,8 @@ Erros indicando que o servidor não pode ou não processará a solicitação dev
 {% endapi-method %}
 
 {% hint style="warning" %}
-**URLs de redirecionamento** precisam está na lista de permissões do app, insira o URL de retorno de callback do seu aplicativo no seguinte formato: 
+**URLs de redirecionamento** precisam está na lista de permissões do app, insira o URL de retorno de callback do seu aplicativo no seguinte formato:
 
 {https forwarding address}/v1/shopify/callback
 {% endhint %}
-
-
 

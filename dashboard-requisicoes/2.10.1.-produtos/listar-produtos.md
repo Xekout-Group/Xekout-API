@@ -170,7 +170,7 @@ Lista de produtos.
 Loja inativa ou sem app instalado.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 403001,
@@ -203,12 +203,10 @@ Lista de errors.
 {% endapi-method %}
 
 {% hint style="warning" %}
- **presentment\_currencies:** Preços de apresentação apenas disponíveis em algumas moedas, de acordo com a [**ISO 4217**](https://en.wikipedia.org/wiki/ISO_4217).
+**presentment\_currencies:** Preços de apresentação apenas disponíveis em algumas moedas, de acordo com a [**ISO 4217**](https://en.wikipedia.org/wiki/ISO_4217).
 {% endhint %}
 
 {% hint style="warning" %}
 **limit:** Os valor padrão é **50**, e o valor máximo a utilizar é **250**.
 {% endhint %}
-
-
 

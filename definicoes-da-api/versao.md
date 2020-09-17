@@ -23,8 +23,6 @@ description: 'Versionamento da API, com possivel changelogs.'
 
 * Nada
 
-
-
 ## 1.0.6 - 18-03-2020
 
 ### Fixed

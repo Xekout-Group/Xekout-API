@@ -13,5 +13,3 @@ description: >-
 3. [Autenticação](url-de-autenticacao-auth.md)
 4. [Desinstalação](2.9.1.4.-desinstalacao-do-xekoutapp.md)
 
-
-

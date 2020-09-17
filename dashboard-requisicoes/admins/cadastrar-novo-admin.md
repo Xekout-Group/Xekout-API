@@ -90,6 +90,6 @@ Não possui as devidas credenciais para concluir a operação.
 {% endapi-method %}
 
 {% hint style="info" %}
-O código utilizado na resposta da requisição, é um código próprio do Xekout App, para definições e especificações de todos os códigos, acessar [Códigos Respostas]().
+O código utilizado na resposta da requisição, é um código próprio do Xekout App, para definições e especificações de todos os códigos, acessar [Códigos Respostas](cadastrar-novo-admin.md).
 {% endhint %}
 

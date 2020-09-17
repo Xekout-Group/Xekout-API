@@ -175,7 +175,7 @@ Informações do produto.
 Loja inativa ou sem app instalado.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "status": "error",
   "code": 403001,
