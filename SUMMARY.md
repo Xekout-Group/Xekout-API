@@ -20,7 +20,7 @@
         * [Cadastrar Cliente](rest-api/endpoints/v1/api-checkout/customers/register-customer.md)
       * [Pedidos](rest-api/endpoints/v1/api-checkout/orders/README.md)
         * [PayPal](rest-api/endpoints/v1/api-checkout/orders/paypal/README.md)
-          * [Criar pedido](rest-api/endpoints/v1/api-checkout/orders/paypal/criar-pedido.md)
+          * [Criar pedido PayPal](rest-api/endpoints/v1/api-checkout/orders/paypal/criar-pedido.md)
           * [Executa pedido PayPal](rest-api/endpoints/v1/api-checkout/orders/paypal/executa-pedido-paypal.md)
           * [Excluir pedido PayPal](rest-api/endpoints/v1/api-checkout/orders/paypal/excluir-pedido-paypal.md)
         * [Cadastrar novo pedido](rest-api/endpoints/v1/api-checkout/orders/cadastrar-novo-pedido.md)

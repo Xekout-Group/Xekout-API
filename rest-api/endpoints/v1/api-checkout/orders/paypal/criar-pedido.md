@@ -1,4 +1,4 @@
-# Criar pedido
+# Criar pedido PayPal
 
 {% api-method method="get" host="https://api.xekout.app" path="/v1/auth/orders/paypal" %}
 {% api-method-summary %}
