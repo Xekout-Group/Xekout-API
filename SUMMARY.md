@@ -19,6 +19,10 @@
         * [Buscar informações de um estado](rest-api/endpoints/v1/global/states/get-state-info.md)
         * [Listar estados](rest-api/endpoints/v1/global/states/list-states.md)
     * [API Dashboard](rest-api/endpoints/v1/api-dashboard/README.md)
+      * [Bloqueios](rest-api/endpoints/v1/api-dashboard/blocked/README.md)
+        * [Clientes](rest-api/endpoints/v1/api-dashboard/blocked/clientes/README.md)
+          * [Desbloquear Cliente de uma Loja](rest-api/endpoints/v1/api-dashboard/blocked/clientes/unblock-customer.md)
+          * [Bloquear Cliente de uma Loja](rest-api/endpoints/v1/api-dashboard/blocked/clientes/block-customer.md)
       * [Estornos](rest-api/endpoints/v1/api-dashboard/estornos.md)
       * [Autenticação](rest-api/endpoints/v1/api-dashboard/auth/README.md)
         * [Logout](rest-api/endpoints/v1/api-dashboard/auth/logout.md)
@@ -76,10 +80,6 @@
 * [Versões](rest-api/versions.md)
 
 ## 2 - Dashboard \(Desatualizado\) <a id="dashboard-requisicoes"></a>
-
-* [2.8. Bloqueios de Clientes](dashboard-requisicoes/bloqueios-de-clientes/README.md)
-  * [2.8.1. Bloquear Cliente de uma Loja](dashboard-requisicoes/bloqueios-de-clientes/bloquear-cliente-de-uma-loja.md)
-  * [2.8.2. Desbloquear Cliente de uma Loja](dashboard-requisicoes/bloqueios-de-clientes/desbloquear-cliente-de-uma-loja.md)
 
 ## Códigos de resposta <a id="response-codes"></a>
 
