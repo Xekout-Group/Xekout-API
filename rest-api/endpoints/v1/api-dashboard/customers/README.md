@@ -8,9 +8,9 @@ description: >-
 
 **Lista de requisições**
 
-1. [Cadastrar](register-new-customer.md)
-2. [Listar](list-customers.md)
-3. [Buscar](get-customer-info.md)
+1. [Cadastrar]()
+2. [Listar](auth/list-customers.md)
+3. [Buscar](auth/get-customer-info.md)
 
 {% hint style="warning" %}
 Clientes na plataforma Xekout App, são definidos como _users_.

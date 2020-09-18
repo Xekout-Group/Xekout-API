@@ -8,7 +8,7 @@ description: >-
 
 **Lista de requisições**
 
-1. [Cadastrar](register-new-admin.md)
-2. [Listar](list-admins.md)
-3. [Buscar](get-admin-info.md)
+1. [Cadastrar](guest/register-new-admin.md)
+2. [Listar]()
+3. [Buscar](auth/get-admin-info.md)
 
