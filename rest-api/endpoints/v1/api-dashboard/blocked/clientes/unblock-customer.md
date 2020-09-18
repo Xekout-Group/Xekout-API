@@ -4,7 +4,7 @@ description: Desbloquear um cliente cadastrado na plataforma.
 
 # Desbloquear Cliente de uma Loja
 
-{% api-method method="post" host="https://dev-api.xekout.app" path="/v1/admin/tenant/user/revoke/:domain/:id" %}
+{% api-method method="post" host="https://api.xekout.app" path="/v1/admin/tenant/user/revoke/:domain/:id" %}
 {% api-method-summary %}
 Desbloquear Cliente
 {% endapi-method-summary %}

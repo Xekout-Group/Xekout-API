@@ -79,8 +79,6 @@
         * [Aplicar desconto no carrinho](rest-api/endpoints/v1/api-checkout/carts/aplicar-desconto-no-carrinho.md)
 * [Versões](rest-api/versions.md)
 
-## 2 - Dashboard \(Desatualizado\) <a id="dashboard-requisicoes"></a>
-
 ## Códigos de resposta <a id="response-codes"></a>
 
 * [Estrutura da mensagem](response-codes/message-structure.md)
