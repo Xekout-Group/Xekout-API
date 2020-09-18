@@ -1,5 +1,5 @@
 ---
-description: Descrição a respeito da Xekout
+description: Conheça a Xekout App
 ---
 
 # Sobre a Xekout
