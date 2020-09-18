@@ -6,13 +6,13 @@ description: Descrição a respeito da Xekout
 
 
 
-![](.gitbook/assets/logo-xekout.png)
+![](.gitbook/assets/logo-xekout-app.svg)
 
-A Xekout.me nasceu para ajudar os empreendedores a terem mais lucros e venderem mais.
+Somos uma startup jovem com um grande potencial de crescimento.   
+A 1º versão da Xekout, que foi a Xekout.me, chegamos a R$ 15 milhões transacionados no mês. Pensando no potencial e referência que nos tornamos no cenário de checkout transparente, começamos a trabalhar em uma nova versão que é a Xekout App.  
+  
+Somos muito além de um checkout transparente.   
+A missão da Xekout App é inovar o cenário de checkout transparente aumentando a taxa conversão e oferecer funcionalidades inovadoras na página de checkout. Somos os primeiros a oferecer para o lojista a opção de venda via qrcode com Ame digital e Picpay.
 
-Somos uma empresa séria que preza pelo sigilo e segurança das lojas que utilizam a nossa plataforma.
-
-Estamos sempre pensando em como podemos inovar o cenário de e-commerce e ajudar os empreendedores a lucrarem mais.
-
-Para mais informações acessar o site, clicando [aqui](https://xekout.me/).
+Para mais informações acessar o site, clicando [aqui](https://xekout.app).
 
