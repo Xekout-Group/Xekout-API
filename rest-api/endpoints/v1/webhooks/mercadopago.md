@@ -78,3 +78,7 @@ Ok
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% hint style="info" %}
+Para melhor entendimento do funcionamento da url de notificações do AppMax, e das informações recebidas no payload acessar [documentação](https://www.mercadopago.com.br/developers/pt/guides/notifications/webhooks).
+{% endhint %}
+
