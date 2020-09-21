@@ -1,6 +1,6 @@
 # Buscar credenciais do GoAffPro
 
-{% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/apps/paypal/:subdomain" %}
+{% api-method method="get" host="https://dev-api.xekout.app" path="/v1/admin/apps/goaffpro/:subdomain" %}
 {% api-method-summary %}
 Buscar credenciais do GoAffPro
 {% endapi-method-summary %}

@@ -16,6 +16,7 @@
     * [API Dashboard](rest-api/endpoints/v1/api-dashboard/README.md)
       * [Apps](rest-api/endpoints/v1/api-dashboard/apps/README.md)
         * [Marketing](rest-api/endpoints/v1/api-dashboard/apps/marketing/README.md)
+          * [Google](rest-api/endpoints/v1/api-dashboard/apps/marketing/google.md)
           * [GoAffPro](rest-api/endpoints/v1/api-dashboard/apps/marketing/goaffpro/README.md)
             * [Buscar credenciais do GoAffPro](rest-api/endpoints/v1/api-dashboard/apps/marketing/goaffpro/buscar-credenciais-do-goaffpro.md)
             * [Salvar credenciais do GoAffPro](rest-api/endpoints/v1/api-dashboard/apps/marketing/goaffpro/salvar-credenciais-do-goaffpro.md)
