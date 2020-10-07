@@ -1,16 +1,22 @@
-# Buscar informações da loja
+# Buscar configurações da loja
 
-{% api-method method="get" host="https://api.xekout.app" path="/v1/auth/store/:domain" %}
+{% api-method method="get" host="https://api.xekout.app" path="/v1/auth/store/config/:domain" %}
 {% api-method-summary %}
-Buscar informções da loja
+Buscar configurações da loja
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Este endpoint permite buscar as informações de uma loja cadastrada na Xekout.
+Este endpoint permite buscar as configurações salvas de uma loja cadastrada na Xekout.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="domain" type="string" required=true %}
+Dominío da loja cadastra na Xekout.
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter type="string" name="Content-Type" %}
 Cabeçalho que informa ao cliente qual realmente é o tipo de conteúdo retornado.
@@ -36,17 +42,7 @@ Identificador do estado enviando no Cookies.
 {
   "code": 200000,
   "status": "success",
-  "store": {
-    "company": "string",
-    "domain": "string",
-    "logo": "string",
-    "whatsapp": "string",
-    "app_type": "string",
-    "email": "string",
-    "shopify_domain": "string",
-    "url_store": "string",
-    "document": "string",
-    "config": {
+  "config": {
       "back_store": boolean,
       "safe": boolean,
       "plots": boolean,
@@ -62,7 +58,7 @@ Identificador do estado enviando no Cookies.
       "scarcity_color_text": "string",
       "scarcity_text_align": "string",
       "scarcity_message": "string",
-      "testimonies": "string",
+      "testimonies": object",
       "enable_message_checkout": boolean,
       "message_checkout": "string",
       "message_checkout_color_text": "string",
@@ -72,45 +68,19 @@ Identificador do estado enviando no Cookies.
       "header_color_text": "string",
       "footer_background": "string",
       "footer_color_text": "string"
-    },
-    "facebook": [
-      {
-        "id": integer,
-        "uuid": "string",
-        "tenant_id": integer,
-        "pixel_name": "string",
-        "pixel_id": "string",
-        "payment_type": "string",
-        "products": "string",
-        "created_at": timestamp,
-        "updated_at": "string",
-        "event": "string",
-        "app_id": integer,
-        "token": "string",
-        "username": "string"
-      },
-    ],
-    "google": null,
-    "discounts": {
-      "card_active": boolean,
-      "card": integer,
-      "card_message": "string",
-      "billet": integer,
-      "billet_active": boolean,
-      "billet_message": "string"
-    },
-    "tidio": null,
-    "jivochat": null,
-    "tawk": null,
-    "smartlook": null,
-    "hotjar": null,
-    "polen": null,
-    "goaffpro": null,
-    "theme": {
-      "name": "string",
-      "directory": "string"
     }
-  }
+}
+
+{
+  "code": 200000,
+  "status": "error",
+  "message": "No config found"
+}
+
+{
+  "status": "error",
+  "code": 200000,
+  "message": "Error on try get tenant config"
 }
 ```
 {% endapi-method-response-example %}
@@ -125,26 +95,6 @@ Identificador do estado enviando no Cookies.
   "code": 401003,
   "status": "error",
   "message": "Origin can't be verified"
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```
-{
-  "code": 404000,
-  "status": "error",
-  "message": "Tenant not found"
-}
-
-{
-  "status": "error",
-  "code": 404012,
-  "message": "Not state avaliable for this query"
 }
 ```
 {% endapi-method-response-example %}
