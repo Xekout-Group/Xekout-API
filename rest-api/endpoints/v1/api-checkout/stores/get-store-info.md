@@ -11,6 +11,12 @@ Este endpoint permite buscar as informações de uma loja cadastrada na Xekout.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="domain" type="string" required=true %}
+Dominio da loja cadastrada na Xekout.
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter type="string" name="Content-Type" %}
 Cabeçalho que informa ao cliente qual realmente é o tipo de conteúdo retornado.

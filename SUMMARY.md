@@ -109,6 +109,7 @@
         * [Listar estados](rest-api/endpoints/v1/api-checkout/states/list-states.md)
       * [Gateways](rest-api/endpoints/v1/api-checkout/gateways.md)
       * [Lojas](rest-api/endpoints/v1/api-checkout/stores/README.md)
+        * [Buscar propriedades da loja](rest-api/endpoints/v1/api-checkout/stores/buscar-propriedades-da-loja.md)
         * [Buscar configurações da loja](rest-api/endpoints/v1/api-checkout/stores/buscar-configuracoes-da-loja.md)
         * [Buscar informações da loja](rest-api/endpoints/v1/api-checkout/stores/get-store-info.md)
       * [Desconto](rest-api/endpoints/v1/api-checkout/discount/README.md)
