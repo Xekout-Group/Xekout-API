@@ -66,6 +66,20 @@ Identificador do estado enviando no Cookies.
 ```
 {% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "code": 401003,
+  "status": "error",
+  "message": "Origin can't be verified"
+}
+```
+{% endapi-method-response-example %}
+
 {% api-method-response-example httpCode=405 %}
 {% api-method-response-example-description %}
 
