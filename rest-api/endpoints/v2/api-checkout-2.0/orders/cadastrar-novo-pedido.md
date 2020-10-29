@@ -1,10 +1,8 @@
 # Cadastrar novo pedido
 
-
-
 {% api-method method="get" host="https://api.xekout.app" path="/v2/auth/orders" %}
 {% api-method-summary %}
-Aplicar desconto
+Cadastrar novo pedidod
 {% endapi-method-summary %}
 
 {% api-method-description %}
