@@ -138,6 +138,12 @@
       * [AmeDigital](rest-api/endpoints/v1/webhooks/amedigital.md)
       * [PicPay](rest-api/endpoints/v1/webhooks/picpay.md)
     * [Global](rest-api/endpoints/v1/global.md)
+  * [v2](rest-api/endpoints/v2/README.md)
+    * [API Checkout 2.0](rest-api/endpoints/v2/api-checkout-2.0/README.md)
+      * [Carrinhos de compras](rest-api/endpoints/v2/api-checkout-2.0/carts/README.md)
+        * [Aplicar desconto no carrinho](rest-api/endpoints/v2/api-checkout-2.0/carts/aplicar-desconto-no-carrinho.md)
+      * [Pedido](rest-api/endpoints/v2/api-checkout-2.0/orders/README.md)
+        * [Cadastrar novo pedido](rest-api/endpoints/v2/api-checkout-2.0/orders/cadastrar-novo-pedido.md)
 * [Versões](rest-api/versions.md)
 
 ## Códigos de resposta <a id="response-codes"></a>
